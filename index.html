@@ -1,25 +1,28 @@
     <!DOCTYPE html>
-    <html lang="en">
+    <html lang="en" class="html">
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>CV_Vladyslav_Babenko</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@500;800&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="styles/styles.css">
     </head>
     <body>
         <!--main-->
-        <div>
+        <div class="main">
             <!--main content-->
-            <div>
+            <div class="main-content">
                 <!--about user-->
-                <div>
+                <div class="person">
                     <h2>Python Developer</h2>
                     <h1>Vladyslav Babenko</h1>
                     <p>I am looking a position as a junior Python developer.</p>
                 </div>
                 <!--Projects-->
-                <div>
+                <div class="project">
                     <h3>Projects</h3>
 
                     <ol>
@@ -38,28 +41,42 @@
                     </ol>
                 </div>
                 <!---Work exspirence-->
-                <div>
+                <div class="work">
                     <h3>Work Experience</h3>
-                    <p>I haven't comercial work exspirence yet, but I have same pet project in my GitHub page. </p>
+                    <p>I haven't commercial work experience yet, <br>
+                       but I have same pet project in my GitHub page. </p>
                 </div>
                 <!--Education-->
-                <div>
+                <div class="educ">
                     <h3>Education</h3>
-                    <p>GoIT Course Python6</p>
+                    <ul>
+                        <li>GoIT Course Python Data Science</li>
+                        <li>GoIT HTML + CSS</li>
+                        <li>GlobalLogistic IT Basic</li>
+                    </ul>
+                </div>
+                <div class="local">
+                    <h3>Location</h3>
+                    <p>Odesa, Ukraine</p>
                 </div>
 
             </div>
             <!--side bar-->
-            <aside>
-                <img src="img/foto.jpg" alt="photo profile" width="370">
+            <aside class="side-bar">
+                <img src="img/foto.jpg" alt="photo profile" width="370" class="image">
                 <!--Contact-->
-                <div>
+                <div class="contacts">
                     <h3>Contacts</h3>
                     <div>
                         <p>
                             Phone: <a href=" tel: +380936007646">+380936007646</a>
                         </p>
-                        <p>Email: <a href="vlad_bb@icloud.com">vlad_bb@icloud.com</a>
+                        <p>
+                            Email: <a href="vlad_bb@icloud.com">vlad_bb@icloud.com</a>
+                        </p>
+                        <p>
+                            LinkedIn: <a href="https://www.linkedin.com/in/vladbb">www.linkedin.com</a>
+
                         </p>
                         <p>
                             GitHub <a href="www.github.com/vlad-bb">www.github.com/vlad-bb</a>
@@ -67,7 +84,8 @@
                     </div>
                 </div>
                 <!--Hard Skills-->
-                <div>Tech Skills</div>
+                <div class="hard">
+                    <h3>Tech Skills</h3>
                 <ul>
                     <li>Python</li>
                     <li>Django</li>
@@ -76,13 +94,21 @@
                     <li>HTML</li>
                     <li>CSS</li>
                     <li>Solidity</li>
+                    <li>Docker</li>
+                    <li>SQLite</li>
+                    <li>MongoDB</li>
                 </ul>
-                <div>Soft Skills</div>
+                </div>
+                <div class="soft">
+                    <h3>Soft Skills</h3>
                 <ul>
-                    <li>English B2</li>
+                    <li>English: B2</li>
+                    <li>Ukrainian: native</li>
                     <li>Agile</li>
                     <li>Scrum</li>
+                    <li>Jira</li>
                 </ul>
+                </div>
             </aside>
         </div>
     </body>
