@@ -4,7 +4,6 @@
 body {
     font-family: 'Nunito',
             sans-serif;
-            width: 1200px;
 }
 
 h3 {
@@ -30,12 +29,13 @@ h2 {
 .main {
     display: flex;
     flex-direction: row-reverse;
-    /* margin: 40px; */
+    width: 1200px;
 }
 
 /* main-content */
 .main-content {
     background-color: rgb(31, 34, 45);
+    width: 600px;
 }
 .person {
     padding-top: 100px;
@@ -63,10 +63,11 @@ h2 {
 /* side-bar */
 .side-bar {
     background-color: rgba(21, 14, 1, 0.853);
+    width: 400px;
 }
 
 .image {
-    padding-top: 40px;
+    padding: 15px;
 }
 .contacts {
     padding-top: 40px;
