@@ -1,3 +1,3 @@
 <h1> HTML_CSS </h1>
-This repository for learning HTML + CSS
-https://vlad-bb.github.io/HTML_CSS/
+<p> This repository for learning HTML + CSS </p>
+<a> href="https://vlad-bb.github.io/HTML_CSS/">CV Vladyslav Babenko</a>
