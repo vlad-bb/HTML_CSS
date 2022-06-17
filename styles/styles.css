@@ -72,6 +72,18 @@ h2 {
     padding-top: 40px;
     padding-left: 40px;
 }
+.ulist {
+    padding: 17px;
+}
+.olist {
+    padding: 17px;
+}
+.li-item {
+    color: #FB6D3A;
+}
+.span-item {
+    color: azure;
+}
 .hard {
     padding-top: 40px;
     padding-left: 40px;
