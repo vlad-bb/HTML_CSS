@@ -25,11 +25,14 @@ h2 {
     color: rgb(63, 63, 170);
 }
 
+
 /* main-block */
 .main {
     display: flex;
     flex-direction: row-reverse;
     width: 1200px;
+    
+   
 }
 
 /* main-content */
