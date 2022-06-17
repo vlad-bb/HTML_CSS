@@ -30,7 +30,7 @@ h2 {
 .main {
     display: flex;
     flex-direction: row-reverse;
-    margin: 40px;
+    /* margin: 40px; */
 }
 
 /* main-content */
