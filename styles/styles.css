@@ -4,6 +4,7 @@
 body {
     font-family: 'Nunito',
             sans-serif;
+            background-color: blanchedalmond;
 }
 
 h3 {
@@ -31,6 +32,7 @@ h2 {
     display: flex;
     flex-direction: row-reverse;
     width: 1200px;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
     
    
 }
@@ -60,6 +62,9 @@ h2 {
     padding-top: 40px;
     padding-left: 80px;
 }
+.title {
+    margin-bottom: 5px;
+}
 
 
 
@@ -77,10 +82,10 @@ h2 {
     padding-left: 40px;
 }
 .ulist {
-    padding: 17px;
+    padding-left:  17px;
 }
 .olist {
-    padding: 17px;
+    padding-left: 17px;
 }
 .li-item {
     color: #FB6D3A;
